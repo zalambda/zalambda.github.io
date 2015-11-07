@@ -1,0 +1,10 @@
+.navbar-inverse {
+  background-color: green;
+  border-color: darkgreen;
+}
+
+.footer.form-page {
+  position: fixed !important;/* !important for SO snippet priority */
+  bottom: 0;
+  width: 100%;
+}
