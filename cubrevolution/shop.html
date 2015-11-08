@@ -1,82 +1,96 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Page Title - Cub Revolution</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.1.6/semantic.min.css" />
   <link rel="stylesheet" href="index.css" />
 </head>
+
 <body>
   <div class="ui top fixed menu">
-    <div class="header item">
-      Cub Revolution
+    <div class="ui container">
+      <div class="header item">
+        Cub Revolution
+      </div>
+      <a class="item" href="index.html">
+          Home
+        </a>
+      <a class="item active" href="shop.html">
+          Shop
+        </a>
     </div>
-    <a class="item" href="index.html">
-      Home
-    </a>
-    <a class="item active" href="shop.html">
-      Shop
-    </a>
   </div>
-
   <div class="ui container segment" id="main" style="margin-top: 50px; margin-bottom: 105px">
     <div class="ui right rail">
       <!--<div class="ui segment">-->
-        <h3>In cart:</h3>
-        <div class="ui middle aligned divided list">
-          <div class="item">
-            <div class="right floated content">
-              <div class="ui left labeled button" tabindex="0">
-                <span class="ui basic label">
-                  <i class="dollar icon"></i>9
+      <h3>In cart:</h3>
+      <div class="ui middle aligned divided list">
+        <div class="item">
+          <div class="right floated content">
+            <div class="ui left labeled button" tabindex="0">
+              <span class="ui basic label">
+                <i class="dollar icon"></i>9
                 </span>
-                <div class="ui negative button">
-                  Remove
-                </div>
+              <div class="ui negative button">
+                Remove
               </div>
-            </div>
-            <div class="middle aligned content">
-              <div class="header">Design 1</div>
-                T-Shirt
             </div>
           </div>
-          <div class="item">
-            <div class="right floated content">
-              <div class="ui left labeled button" tabindex="0">
-                <span class="ui basic label">
-                  <i class="dollar icon"></i>9
-                </span>
-                <div class="ui negative button">
-                  Remove
-                </div>
-              </div>
-            </div>
-            <div class="middle aligned content">
-              <div class="header">Design 2</div>
-                T-Shirt
-            </div>
-          </div>
-          <div class="item">
-            <div class="right floated content">
-              <div class="ui left labeled button" tabindex="0">
-                <span class="ui basic label">
-                  <i class="dollar icon"></i>9
-                </span>
-                <div class="ui negative button">
-                  Remove
-                </div>
-              </div>
-            </div>
-            <div class="middle aligned content">
-              <div class="header">Design 5</div>
-                T-Shirt
-            </div>
+          <div class="middle aligned content">
+            <div class="header">Design 1</div>
+            T-Shirt
           </div>
         </div>
-        <div class="ui vertical animated green basic bottom attached button" tabindex="0" id="pay">
+        <div class="item">
+          <div class="right floated content">
+            <div class="ui left labeled button" tabindex="0">
+              <span class="ui basic label">
+                <i class="dollar icon"></i>9
+                </span>
+              <div class="ui negative button">
+                Remove
+              </div>
+            </div>
+          </div>
+          <div class="middle aligned content">
+            <div class="header">Design 2</div>
+            T-Shirt
+          </div>
+        </div>
+        <div class="item">
+          <div class="right floated content">
+            <div class="ui left labeled button" tabindex="0">
+              <span class="ui basic label">
+                <i class="dollar icon"></i>9
+                </span>
+              <div class="ui negative button">
+                Remove
+              </div>
+            </div>
+          </div>
+          <div class="middle aligned content">
+            <div class="header">Design 5</div>
+            T-Shirt
+          </div>
+        </div>
+      </div>
+      <div class="ui vertical fluid buttons">
+        <div class="ui vertical animated teal basic fluid button" tabindex="0" id="pay" style="text-align: center">
           <div class="hidden content"><i class="dollar icon"></i>27</div>
           <div class="visible content">
-            <i class="payment icon"></i> Checkout
+            <i class="payment icon"></i> Pay Online
           </div>
+        </div>
+        <div class="ui vertical animated green basic fluid button" tabindex="0" style="text-align: center">
+          <div class="hidden content"><i class="dollar icon"></i>27</div>
+          <div class="visible content">
+            <i class="money icon"></i> Pay in Person (cash)
+          </div>
+        </div>
+        <div class="ui button hidden">
+          hi
+        </div>
       </div>
     </div>
     <div class="ui cards">
@@ -100,7 +114,7 @@
             </div>
             <span class="ui basic label">
               <i class="dollar icon"></i>9
-            </span>
+              </span>
           </div>
         </div>
       </div>
@@ -124,7 +138,7 @@
             </div>
             <span class="ui basic label">
               <i class="dollar icon"></i>9
-            </span>
+              </span>
           </div>
         </div>
       </div>
@@ -148,7 +162,7 @@
             </div>
             <span class="ui basic label">
               <i class="dollar icon"></i>9
-            </span>
+              </span>
           </div>
         </div>
       </div>
@@ -172,7 +186,7 @@
             </div>
             <span class="ui basic label">
               <i class="dollar icon"></i>9
-            </span>
+              </span>
           </div>
         </div>
       </div>
@@ -196,21 +210,20 @@
             </div>
             <span class="ui basic label">
               <i class="dollar icon"></i>9
-            </span>
+              </span>
           </div>
         </div>
       </div>
     </div>
   </div>
-
   <div class="ui inverted vertical footer segment form-page" style="margin-top: 50px">
     <div class="ui container">
       <p>
         Content copyright &copy; 2015 Zebulon McCorkle
       </p>
       <p>
-        Design copyright &copy; 2015 Zebulon McCorkle<br />
-        Want a site designed like this? E-mail me at <a href="mailto:zebmccorkle@gmail.com">zebmccorkle@gmail.com</a>!
+        Design copyright &copy; 2015 Zebulon McCorkle
+        <br /> Want a site designed like this? E-mail me at <a href="mailto:zebmccorkle@gmail.com">zebmccorkle@gmail.com</a>!
       </p>
     </div>
   </div>
@@ -219,4 +232,5 @@
   <script src="https://checkout.stripe.com/checkout.js"></script>
   <script src="index.js"></script>
 </body>
+
 </html>
